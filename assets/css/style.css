@@ -124,7 +124,7 @@ h2 {
 /* club ethos */
 
 #club-ethos {
-    height: 600px;
+    height: 750px;
 }
 
 #left-about {
@@ -186,9 +186,6 @@ hr {
     width: 600px;
     height: 600px;
     padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 10px;
     margin: 0 auto;
 }
 
