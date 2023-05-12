@@ -31,38 +31,51 @@
             </ul>
         </nav>
     </header>
-    <section id="photos">
-        <img src="assets/images/boys-match.jpg" alt="Three man team">
-        <img src="assets/images/paddy-award.jpg" alt="Life Achievment Award">
-        <img src="assets/images/cup-final.jpg" alt="Cup Final">
-        <img src="assets/images/medals-galore.jpg" alt="Cup Final Medals">
-        <img src="assets/images/joe-award.jpg" alt="Achievement Award">
-        <img src="assets/images/munster-junior.jpg" alt="Munster Junior Cup">
-        <img src="assets/images/tom-match.jpg" alt="International">
-        <img src="assets/images/tea-time.jpg" alt="Tea Break HaltTime">
-        <img src="assets/images/refs.jpg" alt="League Play Off">
+    <section class="form-section">
+        <form method="POST" action="https://isrslimerick.ie/" class="contactus-form">
+            <h2>Want to find out more about becoming a soccer referee then just contact us! <i
+                    class="fas fa-futbol"></i></h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required>
+
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required>
+
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="email_address" required>
+
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+
+            <input class="join-button" type="submit" value="Let's Run!">
+        </form>
     </section>
 
 
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
+
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
     </footer>
 
     <!-- font awesome script -->
