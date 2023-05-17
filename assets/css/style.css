@@ -1,7 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Montserrat:ital,wght@1,500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:"Montserrat", "Alegreya Sans";
+    font-weight: 300;
+    background-color: #fdf9ee;
+
+}
+
+h1, h2 {
+    font-family: "Montserrat", "Alegreya Sans";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
